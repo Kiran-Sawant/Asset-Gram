@@ -1,0 +1,31 @@
+Abbott: ABT.NYSE
+Aurora Cannabis: ACB.NYSE
+American Express: AXP.NYSE
+Bank of America: BAC.NYSE
+Bristol Myers: BMY.NYSE
+Citi Grp: C.NYSE
+Canopy: CGC.NYSE
+CVS Health: CVS
+Chevron: CVX
+DuPont Denumorus: DD
+DowDuPont: DWDP
+General Electric: GE
+JP Morgan: JPM
+Coca Cola: KO
+Altria: MO.NYSE
+Abbvie: ABBV
+Pinterest: PIN
+Morgan Stanly: MS
+Nike: NKE
+Oracle: ORCL
+Pfizer: PFE
+Phillip Morris: PM
+Schlumberger: SLB
+AT&T: T
+Time Werner: TWX
+US Bancorp: USB
+United Tech: UTX
+Verizon: VZ
+Wells Fargo: WFC
+Exxon Mobil: XOM
+Uber: UBER
