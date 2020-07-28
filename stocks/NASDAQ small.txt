@@ -1,0 +1,21 @@
+Applied Materials: AMAT.NAS
+Activision Blizzard: ATVL.NAS
+Comcast: CMCSA.NAS
+Cronos: CRON.NAS
+Cisco: CSCO.NAS
+CSX: CSX.NAS
+Cognizant: CTSH.NAS
+Dish Network: DISH.NAS
+Ebay: EBAY.NAS
+FOX-B: FOX.NAS
+FOX-A: FOXA.NAS
+Gilead: GILD.NAS
+Lyft: LYFT.NAS
+Intel: INTC.NAS
+Kraft Heinz: KHC.NAS
+Marriot: MAR.NAS
+Mondelez: MDLZ.NAS
+Qualcomm: QCOM.NAS
+Starbucks: SBUX.NAS
+Tilray: TLRY.NAS
+Wallrgeen boots: WBA.NAS
