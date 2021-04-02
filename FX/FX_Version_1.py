@@ -2,13 +2,14 @@ import MetaTrader5 as mt5
 import pandas as pd
 import matplotlib.pyplot as plt
 import time
+from datetime import date
 
 dict1 = {'EUR': 'EURUSD', 'GBP': 'GBPUSD', 'JPY': 'USDJPY', 'CHF': 'USDCHF', 'AUD': 'AUDUSD', 'CAD': 'USDCAD',
          'NZD': 'NZDUSD', 'NOK': 'USDNOK', 'SEK': 'USDSEK',
          'SGD': 'USDSGD', 'HKD': 'USDHKD', 'THB': 'USDTHB', 'CNH': 'USDCNH',
          'ZAR': 'USDZAR', 'MXN': 'USDMXN',
          'TRY': 'USDTRY', 'RUB': 'USDRUB', 'PLN': 'USDPLN', 'CZK': 'USDCZK', 'HUF': 'USDHUF', 'DKK': 'USDDKK',
-         'Gold': 'XAUUSD', 'Silver': 'XAGUSD'}
+         'Gold': 'XAUUSD'}
 
 timeFramedict = {'M1': mt5.TIMEFRAME_M1, 'M5': mt5.TIMEFRAME_M5, 'M10': mt5.TIMEFRAME_M10,
                  'M12': mt5.TIMEFRAME_M12, 'M15': mt5.TIMEFRAME_M15, 'M20': mt5.TIMEFRAME_M20,
@@ -43,7 +44,7 @@ for i in dict1:
 
 k = pd.Series(new_dict)
 
-k.plot(kind='bar', title=f'FX {period} {tFrame} strength')
+k.plot(kind='bar', title=f'FX {period} {tFrame} strength ({date.fromtimestamp(time.time())})')
 
 plt.show()
 
